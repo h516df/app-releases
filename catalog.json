@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "repositoryId": 1426495445,
+  "ownerId": 155412647,
+  "apps": [
+    {
+      "appId": "walkpaint",
+      "displayName": "足迹涂色",
+      "channels": {
+        "stable": "apps/walkpaint/stable.json"
+      }
+    },
+    {
+      "appId": "jiyixia",
+      "displayName": "记一下",
+      "channels": {
+        "stable": "apps/jiyixia/stable.json"
+      }
+    },
+    {
+      "appId": "liuzheba",
+      "displayName": "留着吧",
+      "channels": {
+        "stable": "apps/liuzheba/stable.json"
+      }
+    },
+    {
+      "appId": "kaifanla",
+      "displayName": "开饭啦",
+      "channels": {
+        "stable": "apps/kaifanla/stable.json"
+      }
+    },
+    {
+      "appId": "xiayizhang",
+      "displayName": "下一章",
+      "channels": {
+        "stable": "apps/xiayizhang/stable.json"
+      }
+    }
+  ]
+}
