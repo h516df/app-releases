@@ -3,6 +3,56 @@
   "repositoryId": 1426495445,
   "appId": "walkpaint",
   "channel": "stable",
-  "status": "unavailable",
-  "reason": "本公开分发入口暂无经核验且匿名下载验证通过的正式包；此状态不代表源项目没有版本。"
+  "status": "published",
+  "applicationId": "cn.walkpaint",
+  "release": {
+    "versionCode": 75,
+    "versionName": "0.67",
+    "signingCertificateSha256": "21b74e3e2a10e12da8284d4e6bd7d99e55b00a385215902e94d7896f7a46c967",
+    "minSdk": 26,
+    "abis": [
+      "arm64-v8a"
+    ],
+    "tag": "walkpaint-stable-v0.67",
+    "releaseId": 418003069,
+    "publishedAt": "2026-10-20T04:44:30Z",
+    "notes": {
+      "新增": [
+        "打开附近探索点，自动查找周围2公里的公园、景点和文化场馆；无当前定位时明确使用最近足迹"
+      ],
+      "改进": [
+        "地图归因、底栏与系统导航分别占位，适配窄屏和大字体",
+        "统一三套协调主题，深色沿用高德内置夜间地图，保留独立轨迹色和探索迷雾"
+      ],
+      "修复": [
+        "修复离线更新说明遇到空分类时解析失败的问题"
+      ],
+      "说明": [
+        "附近候选不自动收藏、不到访、不解锁区域，不在后台定期搜索",
+        "沿用原包名、签名、高德配置及schema3；覆盖安装，请勿卸载或清除数据",
+        "高德POI V2实际权限、真实地图与实体手机覆盖升级尚未验收；不含按月回看"
+      ]
+    },
+    "apk": {
+      "assetId": 658275303,
+      "fileName": "WalkPaint-v0.67-arm64.apk",
+      "url": "https://github.com/h516df/app-releases/releases/download/walkpaint-stable-v0.67/WalkPaint-v0.67-arm64.apk",
+      "size": 54690173,
+      "sha256": "b2831a7a0b97c7f945e9ec84965e208b994b10eb04128f826899cec6031a252a"
+    },
+    "source": {
+      "repositoryId": 1410040906,
+      "releaseId": 417998378,
+      "tag": "v0.67",
+      "apkAssetId": 658262564,
+      "url": "https://github.com/h516df/walkpaint/releases/tag/v0.67",
+      "commit": "94f685a045cdedea0e921c6082b94155e37cb01c"
+    },
+    "verification": {
+      "anonymousDownload": true,
+      "downloadedAt": "2026-10-20T04:50:29.501734+00:00",
+      "size": 54690173,
+      "sha256": "b2831a7a0b97c7f945e9ec84965e208b994b10eb04128f826899cec6031a252a"
+    }
+  }
 }
