@@ -42,3 +42,7 @@
 GitHub 网页可能自动提供该分发仓库自身的 Source code zip/tar；本仓库不复制任何源 App 源码压缩包。
 
 GitHub 匿名 API 有额度限制。客户端应缓存已验证清单和仓库元数据，避免频繁轮询，遵守 `Retry-After` / `X-RateLimit-Reset`。遇到 `403 rate limit exceeded` 或网络失败应显示暂时无法检查，保留此前已验证状态；不得把错误解释为“没有更新”、切换到其他 App、使用第三方代理或在 APK 内嵌入凭据。
+
+## 云端开发入口
+
+后续开发默认使用云端：[打开开发工作区](https://codespaces.new/h516df/app-releases) · [环境、检查命令与迁移边界](CLOUD_DEVELOPMENT.md)。
