@@ -11,7 +11,7 @@
 - 总目录：`GET https://api.github.com/repositories/1426495445/contents/catalog.json?ref=main`
 - 每 App：`GET https://api.github.com/repositories/1426495445/contents/apps/<appId>/stable.json?ref=main`
 - 以上请求使用 `Accept: application/vnd.github.raw+json`，可匿名访问；普通 JSON 响应则解码 Contents API 的 base64 `content`。
-- `appId` 为 `walkpaint`、`jiyixia`、`liuzheba`、`kaifanla`、`xiayizhang`。不得根据显示名推断 appId 或包名。
+- `appId` 为 `walkpaint`、`jiyixia`、`liuzheba`、`kaifanla`、`xiayizhang`、`timeworth`。不得根据显示名推断 appId 或包名。
 - 不用仓库级 `/releases/latest` 判断任何 App 的最新版本。Release 标签按 `<appId>-<channel>-v<versionName>` 隔离。
 
 ## 清单契约 v1

@@ -37,6 +37,13 @@
       "channels": {
         "stable": "apps/xiayizhang/stable.json"
       }
+    },
+    {
+      "appId": "timeworth",
+      "displayName": "TimeWorth",
+      "channels": {
+        "stable": "apps/timeworth/stable.json"
+      }
     }
   ]
 }
