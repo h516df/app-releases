@@ -4,6 +4,22 @@
 
 仅发布经核验的正式 APK、中文更新说明、SHA256 校验清单及必要分发资料。APK 保持原字节和原签名。这里不存放私有源码、源仓库 Issues、个人数据、配置、凭据或签名私钥；源码仓库可见性不因分发改变。
 
+## 许可
+
+本仓库只承载安装包的分发，不主张也不改变任何 App 的授权方式。每个 App 的许可证以其源仓库为准：
+
+| appId | 源仓库 | 许可 |
+| --- | --- | --- |
+| `walkpaint` | [h516df/walkpaint](https://github.com/h516df/walkpaint) | GPL-3.0 |
+| `liuzheba` | [h516df/liuzheba](https://github.com/h516df/liuzheba) | Apache-2.0 |
+| `jiyixia` | [h516df/jiyixia](https://github.com/h516df/jiyixia) | MIT |
+| `xiayizhang` | [h516df/xiayizhang](https://github.com/h516df/xiayizhang) | MIT |
+| `timeworth` | [h516df/timeworth-android](https://github.com/h516df/timeworth-android) | MIT |
+
+`kaifanla` 的源仓库已归档，分发中保留的安装包按原样不再更新。
+
+APK 一律以源正式发布的原始字节和原始签名上传，本仓库不做重新打包或重新签名，因此不构成本仓库对这些代码的再授权。本仓库自行编写的部分（分发清单、校验文件、说明文字、发布脚本）与上表许可无关，仅用于便利安装与校验。
+
 ## 固定入口
 
 客户端保存数字 repoID，以 `appId + channel` 定位，当前 channel 为 `stable`：
