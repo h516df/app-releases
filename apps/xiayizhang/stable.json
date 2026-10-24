@@ -3,6 +3,65 @@
   "repositoryId": 1426495445,
   "appId": "xiayizhang",
   "channel": "stable",
-  "status": "unavailable",
-  "reason": "本公开分发入口暂无经核验且匿名下载验证通过的正式包；此状态不代表源项目没有版本。"
+  "status": "published",
+  "applicationId": "cn.privatereader",
+  "release": {
+    "versionCode": 3,
+    "versionName": "0.3",
+    "signingCertificateSha256": "ec66c5260a5bb698fa0faa5414e20424fba96434f5849a254c12f3bf20a9244e",
+    "minSdk": 26,
+    "abis": [
+      "arm64-v8a",
+      "armeabi-v7a",
+      "x86",
+      "x86_64"
+    ],
+    "tag": "xiayizhang-stable-v0.3",
+    "releaseId": 422786193,
+    "publishedAt": "2026-10-24T14:49:20Z",
+    "notes": {
+      "新增": [
+        "阅读中精确选段，自己编辑或审阅 AI 改写候选，确认后采用并支持撤销。",
+        "维护本书大纲、人物、关系和地点；预览导入 V2/V3 角色卡及世界书 JSON。",
+        "正文清理：逐条预览导航、推广和重复标题候选，支持字面替换与硬换行建议。",
+        "书架提供检查更新入口，显示本版说明并由系统确认安装。"
+      ],
+      "改进": [
+        "原始导入文件独立保留，工作稿历史和 .prbook 备份可恢复为独立书籍。"
+      ],
+      "修复": [
+        "清理结果保留原稿与撤销，删除选区时阻止清空整章等不安全边界。"
+      ],
+      "说明": [
+        "此处为官方正式安装包的公开分发，保持源发布的原字节与原签名。",
+        "Android 8.0 及以上；安装请交给系统确认，不卸载或清除已有资料。",
+        "真实手机安装、覆盖升级及升级后资料保留尚未在本次实测。",
+        "首个专用正式签名安装版，Android 8.0 及以上。阅读和手工编辑离线可用。",
+        "没有预置或调用真实 AI 服务；真实供应商、真机选区/输入法/文件选择器及覆盖升级尚未验收。",
+        "角色卡/世界书仅导入基础 JSON 文本，不支持 PNG、CHARX 或完整酒馆运行语义；外部脚本和提示不自动执行。",
+        "卸载会移除本地数据，请先导出备份。更新页访问私有仓库时需用户自行完成 GitHub 设备授权。"
+      ]
+    },
+    "apk": {
+      "assetId": 672520473,
+      "fileName": "xiayizhang-v0.3-universal.apk",
+      "url": "https://github.com/h516df/app-releases/releases/download/xiayizhang-stable-v0.3/xiayizhang-v0.3-universal.apk",
+      "size": 8190874,
+      "sha256": "3c8605421a401b7cb220a82287cf9cb7ec0c3bc78e53eea5e35e192ae5fa9c80"
+    },
+    "source": {
+      "repositoryId": 1426460841,
+      "releaseId": 418067300,
+      "tag": "v0.3",
+      "apkAssetId": 658457156,
+      "url": "https://github.com/h516df/xiayizhang/releases/tag/v0.3",
+      "commit": "3634dc0195f8e06afa4d8a5fa2e12e42c7b5d305"
+    },
+    "verification": {
+      "anonymousDownload": true,
+      "downloadedAt": "2026-10-24T14:49:23.270610+00:00",
+      "size": 8190874,
+      "sha256": "3c8605421a401b7cb220a82287cf9cb7ec0c3bc78e53eea5e35e192ae5fa9c80"
+    }
+  }
 }
