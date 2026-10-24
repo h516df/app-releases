@@ -3,6 +3,56 @@
   "repositoryId": 1426495445,
   "appId": "timeworth",
   "channel": "stable",
-  "status": "unavailable",
-  "reason": "TimeWorth 正在开发，尚无已验收并通过匿名下载验证的正式安装包。"
+  "status": "published",
+  "applicationId": "dev.h516.timeworth",
+  "release": {
+    "versionCode": 1,
+    "versionName": "0.1.0",
+    "signingCertificateSha256": "fbee77769f3ccde6509b2d70465d2992d2bb20f7edb69fa9a75f6bfa9cc25366",
+    "minSdk": 26,
+    "abis": [
+      "arm64-v8a",
+      "armeabi-v7a",
+      "x86",
+      "x86_64"
+    ],
+    "tag": "timeworth-stable-v0.1.0",
+    "releaseId": 422791312,
+    "publishedAt": "2026-10-24T14:52:34Z",
+    "notes": {
+      "新增": [],
+      "改进": [],
+      "修复": [],
+      "说明": [
+        "此处为官方正式安装包的公开分发，保持源发布的原字节与原签名。",
+        "离线记录工资、收入和消费，查看金额对应的时间；可导出 JSON 备份。",
+        "Android 8.0 及以上；安装请交给系统确认，不卸载或清除已有资料。",
+        "真实手机安装、覆盖升级及升级后资料保留尚未在本次实测。",
+        "旧 preview 与正式版包名不同。若有预览资料，先在旧 App 导出 JSON，再在正式版恢复；保留旧 App。",
+        "原构建源码 0b42bab8a3d16f4ce6107cf3eb4ecd397f25555c；正式发布标签的产品代码与该构建一致。"
+      ]
+    },
+    "apk": {
+      "assetId": 672527290,
+      "fileName": "timeworth-0.1.0.apk",
+      "url": "https://github.com/h516df/app-releases/releases/download/timeworth-stable-v0.1.0/timeworth-0.1.0.apk",
+      "size": 2394158,
+      "sha256": "3838d5bc17c33bfb0e4ed8d40303455121ebe8224041ab939100da3b9ac7abc5"
+    },
+    "source": {
+      "repositoryId": 1427824994,
+      "releaseId": 419647720,
+      "tag": "v0.1.0",
+      "apkAssetId": 662743336,
+      "url": "https://github.com/h516df/timeworth-android/releases/tag/v0.1.0",
+      "commit": "4097e5f5ca2e32749dffd6d96a802e9076415b1f",
+      "buildCommit": "0b42bab8a3d16f4ce6107cf3eb4ecd397f25555c"
+    },
+    "verification": {
+      "anonymousDownload": true,
+      "downloadedAt": "2026-10-24T14:52:37.606309+00:00",
+      "size": 2394158,
+      "sha256": "3838d5bc17c33bfb0e4ed8d40303455121ebe8224041ab939100da3b9ac7abc5"
+    }
+  }
 }
