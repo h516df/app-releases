@@ -2,3 +2,5 @@
 
 # Disposable cloud workspace state
 .cloud/
+.impeccable/*
+!.impeccable/design.json

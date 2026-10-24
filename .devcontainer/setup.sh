@@ -2,3 +2,4 @@
 set -euo pipefail
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
 python3.12 --version
+node --version

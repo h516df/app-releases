@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="下载正式 Android 安装包，查看更新说明。">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <title>应用库 · 正式下载</title>
+  <link rel="icon" type="image/svg+xml" href="./site/favicon.svg">
+  <link rel="stylesheet" href="./site/styles.css">
+  <script type="module" src="./site/app.mjs"></script>
+</head>
+<body>
+  <a class="skip-link" href="#apps">跳到应用列表</a>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="应用库首页"><svg aria-hidden="true"><use href="./site/icons.svg#library"/></svg>应用库</a>
+    <button id="theme" class="icon-button" type="button" aria-label="切换深浅色"><svg aria-hidden="true"><use href="./site/icons.svg#theme"/></svg></button>
+  </header>
+  <main class="main">
+    <section class="intro" aria-labelledby="title">
+      <h1 id="title">我的 App</h1>
+      <p>日常的小工具，正式版都在这里。</p>
+      <label class="search"><svg aria-hidden="true"><use href="./site/icons.svg#search"/></svg><span class="sr-only">搜索应用名称或用途</span><input id="search" type="search" placeholder="搜索应用" autocomplete="off" enterkeyhint="search"></label>
+    </section>
+    <section id="apps" aria-labelledby="list-title" tabindex="-1">
+      <div class="section-heading"><h2 id="list-title">全部应用</h2><button id="refresh" class="text-button" type="button">刷新版本</button></div>
+      <p id="notice" class="notice" role="status" aria-live="polite">正在读取正式版本…</p>
+      <div id="app-list" class="app-list" role="list" aria-busy="true"></div>
+      <div id="empty" class="empty" hidden><svg aria-hidden="true"><use href="./site/icons.svg#search"/></svg><h3>没有找到这个应用</h3><p>试试“记录”“阅读”或应用名称。</p><button id="clear-search" class="button" type="button">清空搜索</button></div>
+      <noscript><p class="notice">请启用 JavaScript 读取版本，或<a href="https://github.com/h516df/app-releases/releases">打开正式发布页</a>下载。</p></noscript>
+    </section>
+    <aside class="install-note"><svg aria-hidden="true"><use href="./site/icons.svg#check"/></svg><div><strong>更新时，保留原来的 App</strong><p>直接覆盖安装，不要卸载或清除资料。安装时按 Android 系统提示确认即可。</p></div></aside>
+  </main>
+  <footer><span>安装包来自公开的正式发布</span><a href="https://github.com/h516df/app-releases">查看分发仓库<svg aria-hidden="true"><use href="./site/icons.svg#external"/></svg></a></footer>
+</body>
+</html>
