@@ -1,0 +1,450 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-24T13:48:42.066931+00:00",
+  "title": "Design System: 应用库",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "displayName": "冷白页面",
+        "canonical": "#f7f8fa",
+        "tonalRamp": [
+          "oklch(15.00% 0.00287 264.54)",
+          "oklch(26.43% 0.00287 264.54)",
+          "oklch(37.86% 0.00287 264.54)",
+          "oklch(49.29% 0.00287 264.54)",
+          "oklch(60.71% 0.00287 264.54)",
+          "oklch(72.14% 0.00287 264.54)",
+          "oklch(83.57% 0.00287 264.54)",
+          "oklch(95.00% 0.00287 264.54)"
+        ],
+        "role": "neutral"
+      },
+      "surface": {
+        "displayName": "白色表面",
+        "canonical": "#fff",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ],
+        "role": "neutral"
+      },
+      "text": {
+        "displayName": "墨色正文",
+        "canonical": "#20242b",
+        "tonalRamp": [
+          "oklch(15.00% 0.01442 261.67)",
+          "oklch(26.43% 0.01442 261.67)",
+          "oklch(37.86% 0.01442 261.67)",
+          "oklch(49.29% 0.01442 261.67)",
+          "oklch(60.71% 0.01442 261.67)",
+          "oklch(72.14% 0.01442 261.67)",
+          "oklch(83.57% 0.01442 261.67)",
+          "oklch(95.00% 0.01442 261.67)"
+        ],
+        "role": "neutral"
+      },
+      "muted": {
+        "displayName": "辅助文字",
+        "canonical": "#5b6472",
+        "tonalRamp": [
+          "oklch(15.00% 0.02498 259.18)",
+          "oklch(26.43% 0.02498 259.18)",
+          "oklch(37.86% 0.02498 259.18)",
+          "oklch(49.29% 0.02498 259.18)",
+          "oklch(60.71% 0.02498 259.18)",
+          "oklch(72.14% 0.02498 259.18)",
+          "oklch(83.57% 0.02498 259.18)",
+          "oklch(95.00% 0.02498 259.18)"
+        ],
+        "role": "neutral"
+      },
+      "line": {
+        "displayName": "细灰分隔",
+        "canonical": "#e3e7ed",
+        "tonalRamp": [
+          "oklch(15.00% 0.00920 258.34)",
+          "oklch(26.43% 0.00920 258.34)",
+          "oklch(37.86% 0.00920 258.34)",
+          "oklch(49.29% 0.00920 258.34)",
+          "oklch(60.71% 0.00920 258.34)",
+          "oklch(72.14% 0.00920 258.34)",
+          "oklch(83.57% 0.00920 258.34)",
+          "oklch(95.00% 0.00920 258.34)"
+        ],
+        "role": "neutral"
+      },
+      "accent": {
+        "displayName": "操作蓝",
+        "canonical": "#005ec4",
+        "tonalRamp": [
+          "oklch(15.00% 0.17638 256.92)",
+          "oklch(26.43% 0.17638 256.92)",
+          "oklch(37.86% 0.17638 256.92)",
+          "oklch(49.29% 0.17638 256.92)",
+          "oklch(60.71% 0.17638 256.92)",
+          "oklch(72.14% 0.17638 256.92)",
+          "oklch(83.57% 0.17638 256.92)",
+          "oklch(95.00% 0.17638 256.92)"
+        ],
+        "role": "primary"
+      },
+      "accent-bg": {
+        "displayName": "浅蓝动作底",
+        "canonical": "#e9f2ff",
+        "tonalRamp": [
+          "oklch(15.00% 0.01997 257.47)",
+          "oklch(26.43% 0.01997 257.47)",
+          "oklch(37.86% 0.01997 257.47)",
+          "oklch(49.29% 0.01997 257.47)",
+          "oklch(60.71% 0.01997 257.47)",
+          "oklch(72.14% 0.01997 257.47)",
+          "oklch(83.57% 0.01997 257.47)",
+          "oklch(95.00% 0.01997 257.47)"
+        ],
+        "role": "primary"
+      },
+      "focus": {
+        "displayName": "焦点蓝",
+        "canonical": "#006ad4",
+        "tonalRamp": [
+          "oklch(15.00% 0.18257 255.90)",
+          "oklch(26.43% 0.18257 255.90)",
+          "oklch(37.86% 0.18257 255.90)",
+          "oklch(49.29% 0.18257 255.90)",
+          "oklch(60.71% 0.18257 255.90)",
+          "oklch(72.14% 0.18257 255.90)",
+          "oklch(83.57% 0.18257 255.90)",
+          "oklch(95.00% 0.18257 255.90)"
+        ],
+        "role": "primary"
+      },
+      "subtle": {
+        "displayName": "浅灰控件",
+        "canonical": "#eef0f4",
+        "tonalRamp": [
+          "oklch(15.00% 0.00577 264.53)",
+          "oklch(26.43% 0.00577 264.53)",
+          "oklch(37.86% 0.00577 264.53)",
+          "oklch(49.29% 0.00577 264.53)",
+          "oklch(60.71% 0.00577 264.53)",
+          "oklch(72.14% 0.00577 264.53)",
+          "oklch(83.57% 0.00577 264.53)",
+          "oklch(95.00% 0.00577 264.53)"
+        ],
+        "role": "neutral"
+      },
+      "warning": {
+        "displayName": "棕色状态提示",
+        "canonical": "#80521b",
+        "tonalRamp": [
+          "oklch(15.00% 0.09198 66.60)",
+          "oklch(26.43% 0.09198 66.60)",
+          "oklch(37.86% 0.09198 66.60)",
+          "oklch(49.29% 0.09198 66.60)",
+          "oklch(60.71% 0.09198 66.60)",
+          "oklch(72.14% 0.09198 66.60)",
+          "oklch(83.57% 0.09198 66.60)",
+          "oklch(95.00% 0.09198 66.60)"
+        ]
+      },
+      "dark-bg": {
+        "displayName": "暗色页面",
+        "canonical": "#17191d",
+        "tonalRamp": [
+          "oklch(15.00% 0.00846 264.38)",
+          "oklch(26.43% 0.00846 264.38)",
+          "oklch(37.86% 0.00846 264.38)",
+          "oklch(49.29% 0.00846 264.38)",
+          "oklch(60.71% 0.00846 264.38)",
+          "oklch(72.14% 0.00846 264.38)",
+          "oklch(83.57% 0.00846 264.38)",
+          "oklch(95.00% 0.00846 264.38)"
+        ],
+        "role": "neutral"
+      },
+      "dark-surface": {
+        "displayName": "暗色表面",
+        "canonical": "#202329",
+        "tonalRamp": [
+          "oklch(15.00% 0.01214 264.33)",
+          "oklch(26.43% 0.01214 264.33)",
+          "oklch(37.86% 0.01214 264.33)",
+          "oklch(49.29% 0.01214 264.33)",
+          "oklch(60.71% 0.01214 264.33)",
+          "oklch(72.14% 0.01214 264.33)",
+          "oklch(83.57% 0.01214 264.33)",
+          "oklch(95.00% 0.01214 264.33)"
+        ],
+        "role": "neutral"
+      },
+      "dark-text": {
+        "displayName": "深色 · 墨色正文",
+        "canonical": "#f0f2f6",
+        "tonalRamp": [
+          "oklch(15.00% 0.00576 264.53)",
+          "oklch(26.43% 0.00576 264.53)",
+          "oklch(37.86% 0.00576 264.53)",
+          "oklch(49.29% 0.00576 264.53)",
+          "oklch(60.71% 0.00576 264.53)",
+          "oklch(72.14% 0.00576 264.53)",
+          "oklch(83.57% 0.00576 264.53)",
+          "oklch(95.00% 0.00576 264.53)"
+        ],
+        "role": "neutral"
+      },
+      "dark-muted": {
+        "displayName": "深色 · 辅助文字",
+        "canonical": "#b0b9c8",
+        "tonalRamp": [
+          "oklch(15.00% 0.02355 260.72)",
+          "oklch(26.43% 0.02355 260.72)",
+          "oklch(37.86% 0.02355 260.72)",
+          "oklch(49.29% 0.02355 260.72)",
+          "oklch(60.71% 0.02355 260.72)",
+          "oklch(72.14% 0.02355 260.72)",
+          "oklch(83.57% 0.02355 260.72)",
+          "oklch(95.00% 0.02355 260.72)"
+        ],
+        "role": "neutral"
+      },
+      "dark-line": {
+        "displayName": "深色 · 细灰分隔",
+        "canonical": "#383e49",
+        "tonalRamp": [
+          "oklch(15.00% 0.02068 262.60)",
+          "oklch(26.43% 0.02068 262.60)",
+          "oklch(37.86% 0.02068 262.60)",
+          "oklch(49.29% 0.02068 262.60)",
+          "oklch(60.71% 0.02068 262.60)",
+          "oklch(72.14% 0.02068 262.60)",
+          "oklch(83.57% 0.02068 262.60)",
+          "oklch(95.00% 0.02068 262.60)"
+        ],
+        "role": "neutral"
+      },
+      "dark-accent": {
+        "displayName": "深色主题浅蓝动作",
+        "canonical": "#9ac6ff",
+        "tonalRamp": [
+          "oklch(15.00% 0.09361 255.15)",
+          "oklch(26.43% 0.09361 255.15)",
+          "oklch(37.86% 0.09361 255.15)",
+          "oklch(49.29% 0.09361 255.15)",
+          "oklch(60.71% 0.09361 255.15)",
+          "oklch(72.14% 0.09361 255.15)",
+          "oklch(83.57% 0.09361 255.15)",
+          "oklch(95.00% 0.09361 255.15)"
+        ],
+        "role": "primary"
+      },
+      "dark-accent-bg": {
+        "displayName": "深色 · 浅蓝动作底",
+        "canonical": "#233c5d",
+        "tonalRamp": [
+          "oklch(15.00% 0.06575 255.85)",
+          "oklch(26.43% 0.06575 255.85)",
+          "oklch(37.86% 0.06575 255.85)",
+          "oklch(49.29% 0.06575 255.85)",
+          "oklch(60.71% 0.06575 255.85)",
+          "oklch(72.14% 0.06575 255.85)",
+          "oklch(83.57% 0.06575 255.85)",
+          "oklch(95.00% 0.06575 255.85)"
+        ],
+        "role": "primary"
+      },
+      "dark-focus": {
+        "displayName": "深色 · 焦点蓝",
+        "canonical": "#94c4ff",
+        "tonalRamp": [
+          "oklch(15.00% 0.09826 253.99)",
+          "oklch(26.43% 0.09826 253.99)",
+          "oklch(37.86% 0.09826 253.99)",
+          "oklch(49.29% 0.09826 253.99)",
+          "oklch(60.71% 0.09826 253.99)",
+          "oklch(72.14% 0.09826 253.99)",
+          "oklch(83.57% 0.09826 253.99)",
+          "oklch(95.00% 0.09826 253.99)"
+        ],
+        "role": "primary"
+      },
+      "dark-subtle": {
+        "displayName": "深色 · 浅灰控件",
+        "canonical": "#2b3039",
+        "tonalRamp": [
+          "oklch(15.00% 0.01768 262.24)",
+          "oklch(26.43% 0.01768 262.24)",
+          "oklch(37.86% 0.01768 262.24)",
+          "oklch(49.29% 0.01768 262.24)",
+          "oklch(60.71% 0.01768 262.24)",
+          "oklch(72.14% 0.01768 262.24)",
+          "oklch(83.57% 0.01768 262.24)",
+          "oklch(95.00% 0.01768 262.24)"
+        ],
+        "role": "neutral"
+      },
+      "dark-warning": {
+        "displayName": "深色 · 棕色状态提示",
+        "canonical": "#edc188",
+        "tonalRamp": [
+          "oklch(15.00% 0.08897 73.32)",
+          "oklch(26.43% 0.08897 73.32)",
+          "oklch(37.86% 0.08897 73.32)",
+          "oklch(49.29% 0.08897 73.32)",
+          "oklch(60.71% 0.08897 73.32)",
+          "oklch(72.14% 0.08897 73.32)",
+          "oklch(83.57% 0.08897 73.32)",
+          "oklch(95.00% 0.08897 73.32)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "页面主标题",
+        "purpose": "系统字体的响应式页面标题。"
+      },
+      "title": {
+        "displayName": "应用名称",
+        "purpose": "可换行的应用行名称。"
+      },
+      "metadata": {
+        "displayName": "版本资料",
+        "purpose": "版本、文件大小与日期，启用等宽数字。"
+      },
+      "checksum": {
+        "displayName": "文件校验值",
+        "purpose": "等宽字形与任意位置断行。"
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "action-color",
+        "value": "background-color 120ms ease-out,color 120ms ease-out",
+        "purpose": "仅 prefers-reduced-motion:no-preference 时作用于按钮与链接。"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-list-container",
+        "value": "20rem"
+      },
+      {
+        "name": "compact-topbar-viewport",
+        "value": "380px"
+      },
+      {
+        "name": "wide-viewport",
+        "value": "52rem"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "下载操作",
+      "kind": "button",
+      "description": "正式下载与清空搜索共用的胶囊动作；示例不包含外部下载。",
+      "html": "<button class=\"ds-primary\" type=\"button\"><svg class=\"ds-svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4\"/></svg>下载</button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:.4rem;min-height:44px;padding:.58rem 1.05rem;border:0;border-radius:999px;background:var(--accent-bg,#e9f2ff);color:var(--accent,#005ec4);font-weight:650;font-size:.95rem;line-height:1.5;text-decoration:none;white-space:normal;text-align:center}.ds-primary:hover{background:var(--accent,#005ec4);color:var(--surface,#fff);text-decoration:none}.ds-primary .ds-svg{width:1rem;height:1rem}.ds-svg{width:1.25rem;height:1.25rem;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}.ds-primary:focus-visible{outline:3px solid var(--focus,#006ad4);outline-offset:4px}.ds-primary{font-family:-apple-system,BlinkMacSystemFont,\"PingFang SC\",\"Microsoft YaHei\",sans-serif}@media(prefers-reduced-motion:no-preference){.ds-primary{transition:background-color 120ms ease-out,color 120ms ease-out}}",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "发行记录操作",
+      "kind": "button",
+      "description": "暂无正式安装包时的低强调链接样式；仍可操作。",
+      "html": "<a class=\"ds-unavailable\" href=\"#release-preview\">发行记录</a>",
+      "css": ".ds-unavailable{display:inline-flex;align-items:center;justify-content:center;gap:.4rem;min-height:44px;padding:.58rem 1.05rem;border:0;border-radius:999px;background:var(--accent-bg,#e9f2ff);color:var(--accent,#005ec4);font-weight:650;font-size:.95rem;line-height:1.5;text-decoration:none;white-space:normal;text-align:center}.ds-unavailable:hover{background:var(--accent,#005ec4);color:var(--surface,#fff);text-decoration:none}.ds-unavailable .ds-svg{width:1rem;height:1rem}.ds-svg{width:1.25rem;height:1.25rem;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}.ds-unavailable:focus-visible{outline:3px solid var(--focus,#006ad4);outline-offset:4px}.ds-unavailable{font-family:-apple-system,BlinkMacSystemFont,\"PingFang SC\",\"Microsoft YaHei\",sans-serif}@media(prefers-reduced-motion:no-preference){.ds-unavailable{transition:background-color 120ms ease-out,color 120ms ease-out}}.ds-unavailable{font-weight:500;background:var(--subtle,#eef0f4);color:var(--muted,#5b6472);font-size:.85rem}.ds-unavailable:hover{background:var(--line,#e3e7ed);color:var(--text,#20242b)}.ds-svg{width:1.25rem;height:1.25rem;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}",
+      "refersTo": "button-unavailable"
+    },
+    {
+      "name": "刷新操作",
+      "kind": "button",
+      "description": "列表级文本动作；读取中使用原生 disabled。",
+      "html": "<button class=\"ds-refresh\" type=\"button\">刷新版本</button>",
+      "css": ".ds-refresh{border:0;background:none;color:var(--accent,#005ec4);padding:.65rem .1rem;min-height:44px;font-size:.95rem}.ds-refresh:hover{text-decoration:underline;text-underline-offset:.2em}.ds-refresh:disabled{cursor:wait;opacity:.65}.ds-svg{width:1.25rem;height:1.25rem;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}.ds-refresh:focus-visible{outline:3px solid var(--focus,#006ad4);outline-offset:4px}.ds-refresh{font-family:-apple-system,BlinkMacSystemFont,\"PingFang SC\",\"Microsoft YaHei\",sans-serif}@media(prefers-reduced-motion:no-preference){.ds-refresh{transition:background-color 120ms ease-out,color 120ms ease-out}}",
+      "refersTo": "button-text"
+    },
+    {
+      "name": "主题操作",
+      "kind": "button",
+      "description": "固定触达尺寸的圆形主题切换按钮。",
+      "html": "<button class=\"ds-theme\" type=\"button\" aria-label=\"切换深浅色\"><svg class=\"ds-svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"8\"/><path d=\"M12 4v16M12 4a8 8 0 0 1 0 16\" fill=\"currentColor\" stroke=\"none\"/></svg></button>",
+      "css": ".ds-theme{border:0;background:var(--subtle,#eef0f4);color:var(--text,#20242b);border-radius:50%;width:44px;height:44px;display:grid;place-items:center}.ds-theme:hover{background:var(--line,#e3e7ed)}.ds-svg{width:1.25rem;height:1.25rem;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}.ds-theme:focus-visible{outline:3px solid var(--focus,#006ad4);outline-offset:4px}@media(prefers-reduced-motion:no-preference){.ds-theme{transition:background-color 120ms ease-out,color 120ms ease-out}}",
+      "refersTo": "button-icon"
+    },
+    {
+      "name": "搜索框",
+      "kind": "input",
+      "description": "单一搜索框，焦点反馈位于外边界。",
+      "html": "<label class=\"ds-search\"><svg class=\"ds-svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"/><path d=\"m16 16 4.5 4.5\"/></svg><input type=\"search\" aria-label=\"搜索应用名称或用途\" placeholder=\"搜索应用\"></label>",
+      "css": ".ds-search{margin-top:1.7rem;display:flex;gap:.7rem;align-items:center;background:var(--surface,#fff);border:1px solid var(--line,#e3e7ed);border-radius:12px;padding:.75rem 1rem;max-width:32rem;color:var(--muted,#5b6472)}.ds-search:focus-within{border-color:var(--focus,#006ad4)}.ds-search input{width:100%;min-width:0;border:0;background:transparent;color:var(--text,#20242b);outline:none;caret-color:var(--accent,#005ec4);font-size:1rem;line-height:1.6}.ds-search input::placeholder{color:var(--muted,#5b6472)}.ds-search input:focus-visible{outline:none}.ds-svg{width:1.25rem;height:1.25rem;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}.ds-search,.ds-search input{font-family:-apple-system,BlinkMacSystemFont,\"PingFang SC\",\"Microsoft YaHei\",sans-serif}",
+      "refersTo": "search-field"
+    },
+    {
+      "name": "页头导航",
+      "kind": "nav",
+      "description": "品牌首页入口与主题操作；没有标签页选中态。",
+      "html": "<header class=\"ds-topbar\"><a class=\"ds-brand\" href=\"#home-preview\"><svg class=\"ds-svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"2\"/><rect x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"2\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"2\"/><rect x=\"14\" y=\"14\" width=\"7\" height=\"7\" rx=\"2\"/></svg>应用库</a><button class=\"ds-theme\" type=\"button\" aria-label=\"切换深浅色\"><svg class=\"ds-svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"8\"/><path d=\"M12 4v16M12 4a8 8 0 0 1 0 16\" fill=\"currentColor\" stroke=\"none\"/></svg></button></header>",
+      "css": ".ds-topbar{max-width:64rem;padding:1.1rem var(--space,1.25rem);padding-top:max(1.1rem,env(safe-area-inset-top));margin:auto;display:flex;justify-content:space-between;align-items:center;gap:1rem}.ds-brand{display:inline-flex;align-items:center;gap:.65rem;color:var(--text,#20242b);font-weight:650;text-decoration:none}.ds-brand .ds-svg{width:1.65rem;height:1.65rem;color:var(--accent,#005ec4)}.ds-svg{width:1.25rem;height:1.25rem;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}.ds-brand:focus-visible{outline:3px solid var(--focus,#006ad4);outline-offset:4px}.ds-theme{border:0;background:var(--subtle,#eef0f4);color:var(--text,#20242b);border-radius:50%;width:44px;height:44px;display:grid;place-items:center}.ds-theme:hover{background:var(--line,#e3e7ed)}.ds-svg{width:1.25rem;height:1.25rem;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}.ds-theme:focus-visible{outline:3px solid var(--focus,#006ad4);outline-offset:4px}.ds-topbar{font-family:-apple-system,BlinkMacSystemFont,\"PingFang SC\",\"Microsoft YaHei\",sans-serif;line-height:1.5}@media(max-width:380px){.ds-topbar{gap:.5rem}.ds-brand{white-space:nowrap;gap:.4rem}.ds-brand .ds-svg{width:1.25rem;height:1.25rem}}@media(min-width:52rem){.ds-topbar{padding-top:1.4rem}}@media(prefers-reduced-motion:no-preference){.ds-brand,.ds-theme{transition:background-color 120ms ease-out,color 120ms ease-out}}.ds-brand:hover{text-decoration:underline}"
+    },
+    {
+      "name": "应用目录行",
+      "kind": "custom",
+      "description": "源码结构的合成内容示例；版本和下载数据不写回清单。",
+      "html": "<div class=\"ds-list\" role=\"list\"><article class=\"ds-row\" role=\"listitem\"><div class=\"ds-app-icon\"><svg class=\"ds-svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"2\"/><rect x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"2\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"2\"/><rect x=\"14\" y=\"14\" width=\"7\" height=\"7\" rx=\"2\"/></svg></div><div class=\"ds-info\"><h3>示例应用</h3><p class=\"ds-description\">用一段中文说明工具用途。</p><p class=\"ds-meta\"><span>版本 1.0.0</span><span>12 MB</span><span>2026/1/1</span></p></div><button class=\"ds-primary ds-action\" type=\"button\"><svg class=\"ds-svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4\"/></svg>下载</button></article></div>",
+      "css": ".ds-list{container:apps/inline-size;border-top:1px solid var(--line,#e3e7ed)}.ds-row{display:grid;grid-template-columns:3.5rem minmax(0,1fr) auto;column-gap:1rem;row-gap:.75rem;padding:1.5rem 0;border-bottom:1px solid var(--line,#e3e7ed);align-items:start}.ds-app-icon{width:3.5rem;height:3.5rem;display:grid;place-items:center;border-radius:14px;color:var(--icon-fg,#42617c);background:var(--icon-bg,#e8eef5)}.ds-app-icon .ds-svg{width:1.9rem;height:1.9rem;stroke-width:1.7}.ds-info{min-width:0}.ds-info h3{font-size:1.2rem;line-height:1.35;margin:0 0 .25rem;font-weight:650;overflow-wrap:anywhere}.ds-description{margin:0;color:var(--muted,#5b6472);font-size:.95rem;line-height:1.6}.ds-meta{display:flex;gap:.35rem .7rem;flex-wrap:wrap;color:var(--muted,#5b6472);font-size:.82rem;margin:.5rem 0 0;font-variant-numeric:tabular-nums}.ds-action{align-self:center;margin-top:.2rem;max-width:10rem}.ds-svg{width:1.25rem;height:1.25rem;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}.ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:.4rem;min-height:44px;padding:.58rem 1.05rem;border:0;border-radius:999px;background:var(--accent-bg,#e9f2ff);color:var(--accent,#005ec4);font-weight:650;font-size:.95rem;line-height:1.5;text-decoration:none;white-space:normal;text-align:center}.ds-primary:hover{background:var(--accent,#005ec4);color:var(--surface,#fff);text-decoration:none}.ds-primary .ds-svg{width:1rem;height:1rem}.ds-svg{width:1.25rem;height:1.25rem;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}.ds-primary:focus-visible{outline:3px solid var(--focus,#006ad4);outline-offset:4px}.ds-primary{font-family:-apple-system,BlinkMacSystemFont,\"PingFang SC\",\"Microsoft YaHei\",sans-serif}@media(prefers-reduced-motion:no-preference){.ds-primary{transition:background-color 120ms ease-out,color 120ms ease-out}}.ds-list{font-family:-apple-system,BlinkMacSystemFont,\"PingFang SC\",\"Microsoft YaHei\",sans-serif;color:var(--text,#20242b);line-height:1.5}@container apps (max-width:20rem){.ds-row{grid-template-columns:3rem minmax(0,1fr);gap:.65rem .85rem}.ds-app-icon{width:3rem;height:3rem;border-radius:12px}.ds-info{display:contents}.ds-info h3{grid-column:2/-1;align-self:center;font-size:1.12rem}.ds-description,.ds-meta,.ds-action{grid-column:1/-1}.ds-action{justify-self:start;margin-top:0;max-width:100%}.ds-meta{margin-top:0}}@media(min-width:52rem){.ds-row{padding:1.7rem 0}}",
+      "refersTo": "app-row"
+    },
+    {
+      "name": "更新说明与安装信息",
+      "kind": "custom",
+      "description": "原生 disclosure；示例文件名和校验值均为合成。",
+      "html": "<details class=\"ds-details\"><summary>更新说明与安装信息</summary><p class=\"ds-detail-heading\">改进</p><ul class=\"ds-notes\"><li>示例更新说明，可换行阅读。</li></ul><div class=\"ds-file-info\"><p>Android 8.0 及以上</p><p>example.apk</p><p>安装包校验值（SHA-256）</p><code>0000000000000000000000000000000000000000000000000000000000000000</code></div></details>",
+      "css": ".ds-details{grid-column:2/-1;color:var(--muted,#5b6472);font-size:.9rem;min-width:0}.ds-details summary{min-height:44px;cursor:pointer;display:list-item;padding:.6rem 0;color:var(--muted,#5b6472);width:fit-content;max-width:100%;overflow-wrap:anywhere}.ds-details[open] summary{color:var(--accent,#005ec4)}.ds-notes{margin:.4rem 0 1rem;padding-left:1.25rem}.ds-notes li{margin:.35rem 0;line-height:1.7}.ds-detail-heading{color:var(--text,#20242b);font-weight:650;margin:1rem 0 .3rem}.ds-file-info{margin-top:1rem;border-top:1px solid var(--line,#e3e7ed);padding-top:1rem}.ds-file-info p{margin:.4rem 0}.ds-file-info code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.8rem;overflow-wrap:anywhere;word-break:break-all;display:block;line-height:1.65}.ds-svg{width:1.25rem;height:1.25rem;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}.ds-details summary:focus-visible{outline:3px solid var(--focus,#006ad4);outline-offset:4px}.ds-details{font-family:-apple-system,BlinkMacSystemFont,\"PingFang SC\",\"Microsoft YaHei\",sans-serif;line-height:1.5}"
+    }
+  ],
+  "narrative": {
+    "northStar": "系统式应用目录",
+    "overview": "Operate 操作界面：中性平面、统一蓝色动作、细分隔和小型几何标记，让中文手机用户直接找到应用并下载。沿用用户明确的苹果式精致统一与优秀开源软件的清爽实用；此方向由 Agent 在授权范围内落实，尚无用户审美认可。\n\n本记录合并原有初步设计约定，以 `site/styles.css`、`index.html` 与 `site/app.mjs` 的实际实现为准。方向来源为 `seed:e892b56248183082`；用户偏好优先随机视觉题材，没有用户选卡、批准 comp 或独立 QUALITY BAR 卡。主写手报告已查看浅深色、小屏、大字及桌面，并操作搜索清空、展开说明和断网恢复；文档记录者只读源码，未独立渲染。独立 finish reviewer 报告 `ship`，没有 material fixes；手机安装和更新保数据仍未验。",
+    "keyCharacteristics": [
+      "中文系统字体与清楚的大小层级。",
+      "蓝色动作、低彩度中性底色、细线分隔。",
+      "平面应用行与自绘 SVG 几何标记。",
+      "跟随系统的深浅主题与小屏、大字号重排。"
+    ],
+    "rules": [
+      {
+        "name": "The One Action Color Rule",
+        "body": "所有应用共用同一套动作蓝；应用标记的区分色不扩散到下载按钮或页面主题。",
+        "section": "colors"
+      },
+      {
+        "name": "The Readable Reflow Rule",
+        "body": "通过换行和重排容纳长中文、大字与校验值，不把正文缩小来维持桌面三列。",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Directory Rule",
+        "body": "用细分隔和留白组织应用行，沿用当前平面目录，不给每行增加阴影容器。",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** 使用成对的深浅主题 token，保留焦点与失败状态的区分。",
+      "**Do** 让应用名称、用途、版本与下载形成同一条可扫描目录行。",
+      "**Do** 保持主要操作至少 44px 高度，并让小屏与大字号触发内容重排。",
+      "**Do** 复用自绘 SVG 与系统中文字体，保留长文本换行。"
+    ],
+    "donts": [
+      "**Don't** 把应用标记色当作每个应用独立的按钮主题。",
+      "**Don't** 将本页几何标记当成应用已确认的品牌资产。",
+      "**Don't** 为平面目录行添加重复阴影卡片，或为塞入三列而缩小正文。",
+      "**Don't** 把本轮源码与渲染检查记录写成用户审美认可或手机安装验收。"
+    ]
+  }
+}
